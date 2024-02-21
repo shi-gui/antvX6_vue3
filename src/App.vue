@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>test</div>
+  <div>test3</div>
 </template>
 
 <style lang="less">

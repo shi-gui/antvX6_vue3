@@ -1,1 +1,0 @@
-import{_ as e,M as n,H as r}from"./index.49754af6.js";const t={};function c(_,o){return r(),n("div",null,"\u5FEB\u901F\u4E0A\u624B2")}const a=e(t,[["render",c],["__file","/home/runner/work/antvX6_vue3/antvX6_vue3/src/views/startedQuickly/index2.vue"]]);export{a as default};

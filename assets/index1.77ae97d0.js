@@ -1,0 +1,1 @@
+import{_ as e,M as n,H as r}from"./index.9d082059.js";const c={};function t(_,a){return r(),n("div",null,"\u753B\u5E031")}const s=e(c,[["render",t],["__file","/home/runner/work/antvX6_vue3/antvX6_vue3/src/views/canvas/index1.vue"]]);export{s as default};

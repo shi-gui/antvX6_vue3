@@ -4,6 +4,7 @@ const routes = [
   {
     path: '/',
     name: 'Default',
+    redirect: '/started-quickly/demo1',
     component: () => import('@/layout/index.vue'),
     children: [
       // 快速上手

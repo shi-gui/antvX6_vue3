@@ -37,9 +37,6 @@ onMounted(() => {
     container: document.getElementById('container') as HTMLElement,
     width: 1000,
     height: 600,
-    background: {
-      color: '#fffbe6' // 设置画布背景颜色
-    },
     grid: true
   });
 

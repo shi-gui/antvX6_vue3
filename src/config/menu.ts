@@ -19,6 +19,11 @@ export const menu: Menu[] = [
         key: 12,
         title: '平移和缩放',
         path: '/started-quickly/demo2'
+      },
+      {
+        key: 13,
+        title: '内置图形节点',
+        path: '/started-quickly/demo3'
       }
     ]
   },

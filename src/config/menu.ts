@@ -44,8 +44,13 @@ export const menu: Menu[] = [
     children: [
       {
         key: 31,
-        title: '构造函数创建节点和边',
+        title: '构造函数创建节点',
         path: '/cell/demo1'
+      },
+      {
+        key: 32,
+        title: '自定义节点',
+        path: '/cell/demo2'
       }
     ]
   },

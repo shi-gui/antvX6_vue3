@@ -34,13 +34,20 @@ export const menu: Menu[] = [
       {
         key: 21,
         title: '画布基础',
-        path: '/canvas/demo1'
+        path: '/graph/demo1'
       }
     ]
   },
   {
     key: 3,
-    title: '基类'
+    title: '基类',
+    children: [
+      {
+        key: 31,
+        title: '构造函数创建节点和边',
+        path: '/cell/demo1'
+      }
+    ]
   },
   {
     key: 4,

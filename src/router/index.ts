@@ -25,9 +25,15 @@ const routes = [
       },
       // 画布
       {
-        path: 'canvas/demo1',
-        name: 'canvasDemo1',
-        component: () => import('@/views/canvas/index1.vue')
+        path: 'graph/demo1',
+        name: 'GraphDemo1',
+        component: () => import('@/views/graph/index1.vue')
+      },
+      // 基类
+      {
+        path: 'cell/demo1',
+        name: 'CellDemo1',
+        component: () => import('@/views/cell/index1.vue')
       }
     ]
   }

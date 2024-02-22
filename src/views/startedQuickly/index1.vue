@@ -35,7 +35,6 @@ onMounted(() => {
   // 3、渲染画布
   const graph = new Graph({
     container: document.getElementById('container') as HTMLElement,
-    width: 1000,
     height: 600,
     grid: true
   });

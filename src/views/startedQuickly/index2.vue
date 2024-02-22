@@ -36,7 +36,6 @@ onMounted(() => {
   // 3、渲染画布
   graph.value = new Graph({
     container: document.getElementById('container') as HTMLElement,
-    width: 1000,
     height: 600,
     background: {
       color: '#fffbe6' // 设置画布背景颜色

@@ -61,6 +61,11 @@ export const menu: Menu[] = [
         key: 34,
         title: 'metadata添加节点',
         path: '/cell/demo4'
+      },
+      {
+        key: 35,
+        title: '群组选择器',
+        path: '/cell/demo5'
       }
     ]
   },

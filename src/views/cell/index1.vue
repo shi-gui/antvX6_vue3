@@ -49,5 +49,6 @@ onMounted(() => {
 </script>
 
 <template>
+  <p class="mb-4">内置Shape构造函数添加节点</p>
   <div id="container" />
 </template>

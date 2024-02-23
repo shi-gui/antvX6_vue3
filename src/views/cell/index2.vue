@@ -66,5 +66,6 @@ onMounted(() => {
 </script>
 
 <template>
+  <p class="mb-4">new Node构造函数添加节点</p>
   <div id="container" />
 </template>

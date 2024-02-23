@@ -56,6 +56,11 @@ export const menu: Menu[] = [
         key: 33,
         title: '构造函数自定义选择器',
         path: '/cell/demo3'
+      },
+      {
+        key: 34,
+        title: 'metadata添加节点',
+        path: '/cell/demo4'
       }
     ]
   },

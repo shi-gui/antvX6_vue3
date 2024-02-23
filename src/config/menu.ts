@@ -81,6 +81,11 @@ export const menu: Menu[] = [
         key: 38,
         title: '节点可编辑',
         path: '/cell/demo8'
+      },
+      {
+        key: 39,
+        title: '控制面板修改属性',
+        path: '/cell/demo9'
       }
     ]
   },

@@ -51,6 +51,11 @@ export const menu: Menu[] = [
         key: 32,
         title: '自定义节点',
         path: '/cell/demo2'
+      },
+      {
+        key: 33,
+        title: '构造函数自定义选择器',
+        path: '/cell/demo3'
       }
     ]
   },

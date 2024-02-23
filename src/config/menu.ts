@@ -76,6 +76,11 @@ export const menu: Menu[] = [
         key: 37,
         title: '使用css定制样式',
         path: '/cell/demo7'
+      },
+      {
+        key: 38,
+        title: '节点可编辑',
+        path: '/cell/demo8'
       }
     ]
   },

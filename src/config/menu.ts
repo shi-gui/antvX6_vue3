@@ -91,6 +91,11 @@ export const menu: Menu[] = [
         key: 310,
         title: '拖拽模板',
         path: '/cell/demo10'
+      },
+      {
+        key: 311,
+        title: '选项默认值',
+        path: '/cell/demo11'
       }
     ]
   },

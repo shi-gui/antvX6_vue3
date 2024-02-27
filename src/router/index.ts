@@ -79,6 +79,11 @@ const routes = [
         path: 'cell/demo10',
         name: 'CellDemo10',
         component: () => import('@/views/cell/index10.vue')
+      },
+      {
+        path: 'cell/demo11',
+        name: 'CellDemo11',
+        component: () => import('@/views/cell/index11.vue')
       }
     ]
   }

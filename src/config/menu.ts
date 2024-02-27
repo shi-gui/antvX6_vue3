@@ -86,6 +86,11 @@ export const menu: Menu[] = [
         key: 39,
         title: '控制面板修改属性',
         path: '/cell/demo9'
+      },
+      {
+        key: 310,
+        title: '拖拽模板',
+        path: '/cell/demo10'
       }
     ]
   },

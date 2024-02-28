@@ -84,6 +84,12 @@ const routes = [
         path: 'cell/demo11',
         name: 'CellDemo11',
         component: () => import('@/views/cell/index11.vue')
+      },
+      // 节点
+      {
+        path: 'node/demo1',
+        name: 'NodeDemo1',
+        component: () => import('@/views/node/index1.vue')
       }
     ]
   }

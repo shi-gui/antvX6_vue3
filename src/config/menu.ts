@@ -101,7 +101,14 @@ export const menu: Menu[] = [
   },
   {
     key: 4,
-    title: '节点'
+    title: '节点',
+    children: [
+      {
+        key: 41,
+        title: '节点基础',
+        path: '/node/demo1'
+      }
+    ]
   },
   {
     key: 5,

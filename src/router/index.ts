@@ -90,6 +90,12 @@ const routes = [
         path: 'node/demo1',
         name: 'NodeDemo1',
         component: () => import('@/views/node/index1.vue')
+      },
+      // 边
+      {
+        path: 'edge/demo1',
+        name: 'EdgeDemo1',
+        component: () => import('@/views/edge/index1.vue')
       }
     ]
   }

@@ -112,7 +112,14 @@ export const menu: Menu[] = [
   },
   {
     key: 5,
-    title: '边'
+    title: '边',
+    children: [
+      {
+        key: 51,
+        title: '创建边',
+        path: '/edge/demo1'
+      }
+    ]
   },
   {
     key: 6,

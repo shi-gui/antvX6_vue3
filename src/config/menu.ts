@@ -118,6 +118,11 @@ export const menu: Menu[] = [
         key: 51,
         title: '创建边',
         path: '/edge/demo1'
+      },
+      {
+        key: 52,
+        title: '路径点和路由',
+        path: '/edge/demo2'
       }
     ]
   },

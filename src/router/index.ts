@@ -96,6 +96,16 @@ const routes = [
         path: 'edge/demo1',
         name: 'EdgeDemo1',
         component: () => import('@/views/edge/index1.vue')
+      },
+      {
+        path: 'edge/demo2',
+        name: 'EdgeDemo2',
+        component: () => import('@/views/edge/index2.vue')
+      },
+      {
+        path: 'edge/demo3',
+        name: 'EdgeDemo3',
+        component: () => import('@/views/edge/index3.vue')
       }
     ]
   }

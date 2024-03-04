@@ -123,6 +123,11 @@ export const menu: Menu[] = [
         key: 52,
         title: '路径点和路由',
         path: '/edge/demo2'
+      },
+      {
+        key: 53,
+        title: '公交路线',
+        path: '/edge/demo3'
       }
     ]
   },

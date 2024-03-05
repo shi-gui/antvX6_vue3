@@ -144,6 +144,11 @@ export const menu: Menu[] = [
         key: 62,
         title: '通过交互创建嵌套',
         path: '/group/demo2'
+      },
+      {
+        key: 63,
+        title: '限制子节点移动',
+        path: '/group/demo3'
       }
     ]
   },

@@ -139,6 +139,11 @@ export const menu: Menu[] = [
         key: 61,
         title: '群组基础',
         path: '/group/demo1'
+      },
+      {
+        key: 62,
+        title: '通过交互创建嵌套',
+        path: '/group/demo2'
       }
     ]
   },

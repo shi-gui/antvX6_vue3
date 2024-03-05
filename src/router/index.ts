@@ -112,6 +112,11 @@ const routes = [
         path: 'group/demo1',
         name: 'GroupDemo1',
         component: () => import('@/views/group/index1.vue')
+      },
+      {
+        path: 'group/demo2',
+        name: 'GroupDemo2',
+        component: () => import('@/views/group/index2.vue')
       }
     ]
   }

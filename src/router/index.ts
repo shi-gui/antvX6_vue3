@@ -106,6 +106,12 @@ const routes = [
         path: 'edge/demo3',
         name: 'EdgeDemo3',
         component: () => import('@/views/edge/index3.vue')
+      },
+      // 群组
+      {
+        path: 'group/demo1',
+        name: 'GroupDemo1',
+        component: () => import('@/views/group/index1.vue')
       }
     ]
   }

@@ -133,7 +133,14 @@ export const menu: Menu[] = [
   },
   {
     key: 6,
-    title: '群组'
+    title: '群组',
+    children: [
+      {
+        key: 61,
+        title: '群组基础',
+        path: '/group/demo1'
+      }
+    ]
   },
   {
     key: 7,

@@ -122,6 +122,12 @@ const routes = [
         path: 'group/demo3',
         name: 'GroupDemo3',
         component: () => import('@/views/group/index3.vue')
+      },
+      // 连接桩
+      {
+        path: 'port/demo1',
+        name: 'PortDemo1',
+        component: () => import('@/views/port/index1.vue')
       }
     ]
   }

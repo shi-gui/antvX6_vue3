@@ -154,6 +154,13 @@ export const menu: Menu[] = [
   },
   {
     key: 7,
-    title: '连接桩'
+    title: '连接桩',
+    children: [
+      {
+        key: 71,
+        title: '连接桩基础',
+        path: '/port/demo1'
+      }
+    ]
   }
 ];

@@ -134,6 +134,12 @@ const routes = [
         path: 'grid/demo1',
         name: 'GridDemo1',
         component: () => import('@/views/grid/index1.vue')
+      },
+      // 背景
+      {
+        path: 'background/demo1',
+        name: 'BackgroundDemo1',
+        component: () => import('@/views/background/index1.vue')
       }
     ]
   }

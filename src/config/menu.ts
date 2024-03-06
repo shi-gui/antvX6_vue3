@@ -173,5 +173,16 @@ export const menu: Menu[] = [
         path: '/grid/demo1'
       }
     ]
+  },
+  {
+    key: 9,
+    title: '背景',
+    children: [
+      {
+        key: 91,
+        title: '背景基础',
+        path: '/background/demo1'
+      }
+    ]
   }
 ];

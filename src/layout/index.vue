@@ -1,6 +1,6 @@
 <template>
   <a-layout style="min-height: 100vh">
-    <a-layout-sider v-model:collapsed="collapsed" collapsible>
+    <a-layout-sider>
       <!-- log -->
       <div class="text-white flex items-center justify-center px-5">
         <img
@@ -47,12 +47,17 @@
 import { menu, type Menu } from '../config/menu';
 import MenuItem from './components/MenuItem.vue';
 
-const collapsed = ref<boolean>(false);
-const openKeys = ref<number[]>([1]);
-const selectedKeys = ref<number[]>([11]);
+const openKeys = ref<number[]>(
+  JSON.parse(localStorage.getItem('openKeys') || '[1]')
+);
+const selectedKeys = ref<number[]>([
+  Number(localStorage.getItem('selectedKeys')) || 11
+]);
 const router = useRouter();
 
 const handleClick = ({ key }: any) => {
+  localStorage.setItem('selectedKeys', key);
+  localStorage.setItem('openKeys', JSON.stringify(openKeys.value));
   let path = undefined;
   function getCurrentMenu(m: Menu[]) {
     for (let i = 0; i < m.length; i++) {

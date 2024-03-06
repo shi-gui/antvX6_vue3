@@ -128,6 +128,12 @@ const routes = [
         path: 'port/demo1',
         name: 'PortDemo1',
         component: () => import('@/views/port/index1.vue')
+      },
+      // 网格
+      {
+        path: 'grid/demo1',
+        name: 'GridDemo1',
+        component: () => import('@/views/grid/index1.vue')
       }
     ]
   }

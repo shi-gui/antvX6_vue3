@@ -162,5 +162,16 @@ export const menu: Menu[] = [
         path: '/port/demo1'
       }
     ]
+  },
+  {
+    key: 8,
+    title: '网格',
+    children: [
+      {
+        key: 81,
+        title: '网格基础',
+        path: '/grid/demo1'
+      }
+    ]
   }
 ];

@@ -65,7 +65,9 @@ onMounted(() => {
 function handleCopy() {
   const cells = graph.getSelectedCells();
   if (cells.length) {
-    graph.copy(cells);
+    graph.copy(cells, {
+      useLocalStorage: true
+    });
     message.success('复制成功');
   }
 }
@@ -74,8 +76,12 @@ function handlePaste() {
   if (graph.isClipboardEmpty()) {
     message.warning('剪切板为空，不可粘贴');
   } else {
-    const cells = graph.paste();
+    const cells = graph.paste({ offset: 100 });
+    // 清空选区
+    graph.cleanSelection();
+    // 清空剪切板
     graph.cleanClipboard();
+    // 选中新复制的节点
     graph.select(cells);
     message.success('粘贴成功');
   }

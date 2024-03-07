@@ -140,6 +140,12 @@ const routes = [
         path: 'background/demo1',
         name: 'BackgroundDemo1',
         component: () => import('@/views/background/index1.vue')
+      },
+      // 剪切板
+      {
+        path: 'clipboard/demo1',
+        name: 'ClipboardDemo1',
+        component: () => import('@/views/clipboard/index1.vue')
       }
     ]
   }

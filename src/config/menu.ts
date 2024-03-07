@@ -184,5 +184,16 @@ export const menu: Menu[] = [
         path: '/background/demo1'
       }
     ]
+  },
+  {
+    key: 10,
+    title: '剪切板',
+    children: [
+      {
+        key: 101,
+        title: '剪切板基础',
+        path: '/clipboard/demo1'
+      }
+    ]
   }
 ];
